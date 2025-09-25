@@ -28,21 +28,35 @@ AnalyticsStub -----> simula registro de métricas de uso del sistema.
 Estructura del Proyecto:
 
 proyecto_biblioteca/
-├── biblioteca_sistema.py     # Sistema principal (usa inyección de dependencias)
-├── test_top_down.py          # Pruebas unitarias con pytest
-└── stubs/                    # Carpeta con stubs simulados
-    ├── __init__.py
-    ├── database_stub.py
-    ├── auth_stub.py
-    ├── notification_stub.py
-    ├── fines_stub.py
-    ├── recommendation_stub.py
-    ├── logging_stub.py
-    ├── payment_stub.py
-    ├── search_stub.py
-    ├── reserve_stub.py
-    └── analytics_stub.py
 
+├── biblioteca_sistema.py     # Sistema principal (usa inyección de dependencias)
+
+├── test_top_down.py          # Pruebas unitarias con pytest
+
+└── stubs/                    # Carpeta con stubs simulados
+
+    ├── __init__.py
+    
+    ├── database_stub.py
+    
+    ├── auth_stub.py
+    
+    ├── notification_stub.py
+    
+    ├── fines_stub.py
+    
+    ├── recommendation_stub.py
+    
+    ├── logging_stub.py
+    
+    ├── payment_stub.py
+    
+    ├── search_stub.py
+    
+    ├── reserve_stub.py
+    
+    └── analytics_stub.py
+    
 
 Instalación y Ejecución
 1. Crear entorno virtual (opcional)
